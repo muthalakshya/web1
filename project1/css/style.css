@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+}
+
+.header{
+    height: 90px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(22, 86, 182);
+    display: flex;  
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(22, 86, 182);
+}
+
+.logo img{
+    padding: 10px 15px 0 15px;
+}
+
+.menu{
+    width: 790px;
+    height: 80px;
+}
+.menu ul{
+    text-align: center;
+    line-height: 80px;
+    padding-right: 12px;
+}
+
+.menu ul li {
+    width: 100px;
+    display: inline-block;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    background-image: url(../img/menu-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row2{
+    height: 325px;
+    width: 1000px;
+    background-image: url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items: center;
+}
+
+.row2 h1{
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 95px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0095da;
+    line-height: 45px;
+
+}
+
+
+.row3{
+    height: 300px;
+    width: 1000px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.col31{
+    height: 300px;
+    width: 480px;
+    /* border: 1px solid whitesmoke; */
+    display: flex;
+}
+
+.col31same{
+    height: 144px;
+    width: 226px;
+    margin: 5px 3px 3px 3px;
+    background-image: url(../img/abstract-textured-backgound.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.col31same h2{
+    font-size: 45px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.col31same p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    padding-top: 10px;
+}
+
+.col32{
+    height: 300px;
+    width: 560px;
+}
+.col32 img{
+    padding: 10px;
+    height: 280px;
+    width: 520px;
+}
+
+.row4{
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: small;
+}
+
+.coll1{
+    padding: 15px 20px;
+    width: 250px;
+    line-height: 22px;
+    margin: 0px 5px;
+    background-image: url(../img/blue-concrete-wall-with-scratches.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    border: 2px solid rgb(249, 249, 249);    
+}
+
+
+.coll2{
+    padding: 15px 20px;
+    width: 450px;
+    line-height: 22px;
+    margin: 0px 5px;
+    background-image: url(../img/blue-concrete-wall-with-scratches.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    border: 2px solid rgb(249, 249, 249); 
+}
+
+.coll3{
+    width: 300px;
+    margin: 0px 5px;
+    border: 2px solid rgb(249, 249, 249);     
+}
+ .coll3 img{
+    width: 300px;
+    height: 200px;
+    
+ }
+
+.row5{
+    margin: auto;
+    height: 250px;
+    width: 980px;
+    padding: 10px;
+    background-color: rgb(22, 86, 182);
+    display: flex;
+}
+
+.flogo{
+    width: 300px;
+    display: inline-block;
+}
+.img{
+    height: 40px;
+    width: 40px;
+    align-content: center;
+    display: inline-block;
+}
+
+.flink{
+    width: 450px;
+    /* display: inline-block; */
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    line-height: 28px;
+}
+
+.flink ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.flink ol li {
+    align-content: center;
+    display: inline-block;
+
+}
+
+.fcontact{
+    padding-right: 15px;
+    width: 250px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: right;
+}
+.fcontact h3{
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+.anchor{
+    text-decoration: none;
+    color: aliceblue;
+}
